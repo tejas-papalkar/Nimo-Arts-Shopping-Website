@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+#pleaselogintext{
+	 color: red;
+	 font-size: 25px;
+    display: block;
+    text-align: center;
+    
+}
+#logoutbtn{
+    display: inline;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    font-weight: 1000;
+    margin-left: 20px;
+    background-image: linear-gradient(white,rgb(117, 117, 205));
+}
+#logoutbtn:hover{
+    cursor: pointer;
+    border: 2px solid black;
+    background-image: linear-gradient(rgb(112, 112, 176),white);
+
+   
+}
+#logoutbtn::placeholder{
+    color: black;
+}

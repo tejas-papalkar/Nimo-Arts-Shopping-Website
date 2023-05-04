@@ -1,0 +1,34 @@
+
+#headsearch:hover{
+    cursor: pointer;
+}
+
+.smallarticle:hover{
+    cursor: pointer;
+}
+#home2:hover{
+    color: aqua;
+}
+#about2:hover{
+    color: aqua;
+}
+#contact2:hover{
+    color: aqua;
+}
+.logsign:hover{
+    cursor: pointer;
+}
+#login-submit,#sign-submit:hover{
+    cursor: pointer;
+}
+#login:hover{
+    color: aqua;
+
+}
+#signup:hover{
+    color: aqua;
+}
+#more:hover{
+    color: red;
+    font-size: 25px;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-www.nimoarts.com</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/hower.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="css/ExtendedCss.css">
+</head>
+
+<body>
+    <nav class="navigation">
+        <div class="navleft">
+            <ul>
+                <li id="logo"><a href="index.jsp"><img id="logo-img" src="img/Nimo-modified.png"></a> </li>
+                <li id="home"><a href="index.jsp">Home</a> </li>
+                <li id="about"><a id="about2" href="about.html">About Us</a> </li>
+                <li id="about"><a id="about2" href="contact.html">Contact</a> </li>
+                <li id="contact"><a id="contact2" href="https://maps.app.goo.gl/PPb4mFMeb22z4xpv5" target="-blank">
+                        Location</a></li>
+            </ul>
+        </div>
+        <div class="navright">
+
+
+
+            <div class="logsign">
+                <ul>
+                   
+                    <li><input id="logoutbtn" type="button" onclick="window.location.href='signup.html'"
+                            value="SignUp"></input> </li>
+
+                </ul>
+
+
+
+            </div>
+        </div>
+
+    </nav>
+
+    <main>
+
+        <div class="signup-container">
+
+            <div class="signbox">
+                <div class="image-container">
+                    <img id="sign-img" src="img/16.png" alt="">
+
+                </div>
+                <hr id="sign-hr">
+                <div class="form-container">
+                    <form action="Login" method="post">
+                        <h2 id="sign-h2">Login</h2><br>
+                        <div class="sign-s-class1">
+                            <label id="sign-label" for="username">Enter Username :</label><br>
+                            <input type="text" id="username" placeholder="Username" name="username" required>
+                        </div>
+
+                        <div class="sign-s-class">
+                            <label id="sign-label" for="password">Enter Password :</label><br>
+                            <input type="password" id="password" placeholder="Password" name="password" required>
+                        </div>
+
+                        <input id="login-submit" type="submit" placeholder="Login" value="Login">
+                        
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+</body>
+
+</html>

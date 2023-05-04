@@ -1,0 +1,41 @@
+main{
+    background-color: whitesmoke;}
+#article-img{
+    height: 400px;
+    width: 100vw;
+    
+}
+.article-b-img{
+    overflow-x: hidden;
+}
+.article-container{
+    text-align: justify;
+    width: 60vw;
+    background-color: white;
+    margin: auto;
+    padding: 93px;
+}
+#h1{
+    text-align: center;
+}
+.smallarticle2{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between;
+     */
+    /* align-items: center; */
+    background-image: linear-gradient(white,green);
+    width: 94vw;
+    /* height: 40vh; */
+    margin: auto;
+    /* overflow-x: scroll; */
+    overflow: hidden;
+}
+#article-hr{
+    margin-bottom: 10px;
+}
+h2{
+    margin-left: 40px;
+    font-size: 30px;
+}
+     

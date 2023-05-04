@@ -1,0 +1,36 @@
+
+#headi1{
+    display: block;
+    margin-top: 30px;
+    justify-content: center;
+    font-size: xxx-large;
+    text-align: center;
+}
+#headi2{
+    display: block;
+    margin-top: 10px;
+    justify-content: center;
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 50px;
+    color: red;
+}
+#logoutbtn{
+    display: inline;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    font-weight: 1000;
+    margin-left: 20px;
+    background-image: linear-gradient(white,rgb(117, 117, 205));
+}
+#logoutbtn:hover{
+    cursor: pointer;
+    border: 2px solid black;
+    background-image: linear-gradient(rgb(112, 112, 176),white);
+
+   
+}
+#logoutbtn::placeholder{
+    color: black;
+}

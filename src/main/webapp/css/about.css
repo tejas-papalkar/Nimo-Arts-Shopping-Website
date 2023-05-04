@@ -1,0 +1,47 @@
+#home{
+    font-size: 25px;
+}
+#about{
+    font-size: 40px;
+}
+#contact{
+    font-size: 25px;
+}
+#con-hr{
+    border: 2px solid blue;
+}
+
+.about-container{
+   
+    background: url("img/15.png") no-repeat 12 12%;
+    
+    background-size: cover ;
+    
+}
+h1{
+    text-align: center;
+    color: black;
+    font-size: 45px;
+    padding-top: 20px;
+    font-style: italic;
+}
+.about-container ul {
+    text-align: center;
+    
+    font-weight:300;
+    list-style: none;
+    list-style-position: inside;
+}
+.about-container ul li{
+    font-size: 30px;
+    margin: -7px 0;
+  
+    padding: 90px;
+}
+#about-para{
+    font-style: italic;
+    
+    justify-content: center;
+    text-justify: auto;
+
+}

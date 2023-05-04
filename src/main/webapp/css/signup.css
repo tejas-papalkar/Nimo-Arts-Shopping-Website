@@ -1,0 +1,113 @@
+.signup-container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 80vh;
+    background-image: linear-gradient(white ,rgb(11, 183, 235),white);
+
+}
+#contact{
+    font-size: 25px;
+}
+.image-container{
+    display: flex;
+}
+#sign-hr{
+    margin: 0 10px;
+    border: 2px solid rgb(58, 51, 51);
+}
+.form-container{
+    width: 508px;
+}
+.sign-s-class{
+    margin-left: 55px;
+    margin-bottom: 10px;
+}
+.sign-s-class1{
+    margin-left: 55px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#sign-label{
+    font-size: 25px;
+}
+#username,#s-mail,#password,#c-password{
+    border:none;
+    padding: 10px;
+    width: 350px;
+    background: transparent;
+    border-bottom: 2px solid;
+}
+#username,#s-mail,#password,#c-password::placeholder{
+    padding: 10px;
+    font-size: 15px;
+}
+
+#sign-h2{
+    margin-top: -7px;
+    text-align: center;
+    font-size: 40px;
+}
+#sign-img{
+    width: 414px;
+    height: 551px;
+}
+.signbox{
+    display: flex;
+    padding: 10px;
+    /* border-radius: 27px; */
+    color: rgb(37, 34, 34);
+    padding: 10px;
+    border: 6px rgb(29, 106, 130);
+    border-style: solid; 
+    background-color: whitesmoke; 
+    height: 550px;
+
+    width: 60vw;
+}
+#sign-submit{
+
+    width: 121px;
+    margin-top: 13px;
+    margin-left: 171px;
+    height: 49px;
+    color : black;
+    background-color: white;
+    border: 3px solid black;
+    border-radius:15px;
+}
+#sign-submit::placeholder{
+    font-size: 30px;
+} 
+#sign-submit:hover{
+    background-color: rgb(11, 183, 235);
+}
+#login-submit{
+    display: inline;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    font-weight: 1000;
+    margin-top: 20px;
+    margin-left: 200px;
+    background-image: linear-gradient(white,rgb(117, 117, 205));
+
+
+}
+
+#login-submit:hover{
+    cursor: pointer;
+    border: 2px solid black;
+    background-image: linear-gradient(rgb(112, 112, 176),white);
+
+   
+}
+#login-submit::placeholder{
+    color: black;
+}
+
+
+#logindirect{
+	margin-top:30px;
+	margin-left:30px;
+}
